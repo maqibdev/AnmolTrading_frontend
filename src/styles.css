@@ -1,0 +1,35 @@
+/* src/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto 0; /* Adjust the top margin to create space below the navbar */
+    padding: 20px; /* Add some padding to the top of the container */
+}
+  
+  .car-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .car-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .car-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .car-details {
+    font-size: 1.2em;
+  }
+  
